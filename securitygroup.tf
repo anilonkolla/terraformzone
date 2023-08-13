@@ -37,3 +37,4 @@ resource "aws_security_group_rule" "app" {
     security_group_id = aws_security_group.sg.id
   
 }
+
